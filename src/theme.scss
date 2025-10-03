@@ -1,0 +1,248 @@
+
+/* ======================= */
+/* THEME VARIABLES FILE    */
+/* ======================= */
+
+/* ======================= */
+/* LIGHT THEME VARIABLES   */
+/* ======================= */
+:root {
+    /* Colors */
+    --color-brand-50: rgb(245, 243, 255);
+    --color-brand-100: rgb(237, 233, 254);
+    --color-brand-200: rgb(221, 214, 254);
+    --color-brand-300: rgb(196, 181, 253);
+    --color-brand-400: rgb(167, 139, 250);
+    --color-brand-500: rgb(139, 92, 246);
+    --color-brand-600: rgb(124, 58, 237);
+    --color-brand-700: rgb(109, 40, 217);
+    --color-brand-800: rgb(91, 33, 182);
+    --color-brand-900: rgb(76, 29, 149);
+    --color-brand-primary: rgb(124, 58, 237);
+  
+    --color-neutral-0: rgb(255, 255, 255);
+    --color-neutral-50: rgb(250, 250, 250);
+    --color-neutral-100: rgb(245, 245, 245);
+    --color-neutral-200: rgb(229, 229, 229);
+    --color-neutral-300: rgb(212, 212, 212);
+    --color-neutral-400: rgb(163, 163, 163);
+    --color-neutral-500: rgb(115, 115, 115);
+    --color-neutral-600: rgb(82, 82, 82);
+    --color-neutral-700: rgb(64, 64, 64);
+    --color-neutral-800: rgb(38, 38, 38);
+    --color-neutral-900: rgb(23, 23, 23);
+    --color-neutral-950: rgb(10, 10, 10);
+  
+    --color-error-50: rgb(254, 242, 242);
+    --color-error-100: rgb(254, 226, 226);
+    --color-error-200: rgb(254, 202, 202);
+    --color-error-300: rgb(252, 165, 165);
+    --color-error-400: rgb(248, 113, 113);
+    --color-error-500: rgb(239, 68, 68);
+    --color-error-600: rgb(220, 38, 38);
+    --color-error-700: rgb(185, 28, 28);
+    --color-error-800: rgb(153, 27, 27);
+    --color-error-900: rgb(127, 29, 29);
+  
+    --color-warning-50: rgb(254, 252, 232);
+    --color-warning-100: rgb(254, 249, 195);
+    --color-warning-200: rgb(254, 240, 138);
+    --color-warning-300: rgb(253, 224, 71);
+    --color-warning-400: rgb(250, 204, 21);
+    --color-warning-500: rgb(234, 179, 8);
+    --color-warning-600: rgb(202, 138, 4);
+    --color-warning-700: rgb(161, 98, 7);
+    --color-warning-800: rgb(133, 77, 14);
+    --color-warning-900: rgb(113, 63, 18);
+  
+    --color-success-50: rgb(240, 253, 244);
+    --color-success-100: rgb(220, 252, 231);
+    --color-success-200: rgb(187, 247, 208);
+    --color-success-300: rgb(134, 239, 172);
+    --color-success-400: rgb(74, 222, 128);
+    --color-success-500: rgb(34, 197, 94);
+    --color-success-600: rgb(22, 163, 74);
+    --color-success-700: rgb(21, 128, 61);
+    --color-success-800: rgb(22, 101, 52);
+    --color-success-900: rgb(20, 83, 45);
+  
+    --color-default-font: rgb(23, 23, 23);
+    --color-subtext-color: rgb(115, 115, 115);
+    --color-default-background: rgb(255, 255, 255);
+  
+    /* Fonts */
+    --font-body: 'Inter', sans-serif;
+    --font-body-bold: 'Inter', sans-serif;
+    --font-heading-1: 'Montserrat', sans-serif;
+    --font-heading-2: 'Montserrat', sans-serif;
+    --font-heading-3: 'Montserrat', sans-serif;
+    --font-caption: 'Inter', sans-serif;
+    --font-caption-bold: 'Inter', sans-serif;
+    --font-monospace-body: monospace;  
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 18px;
+    --font-xl: 24px;
+    --font-xl-10: 32x;
+
+  
+    /* Shadows */
+    --shadow-sm: 0px 1px 2px 0px rgba(0,0,0,0.05);
+    --shadow-md: 0px 4px 16px -2px rgba(0,0,0,0.08), 0px 2px 4px -1px rgba(0,0,0,0.08);
+    --shadow-lg: 0px 12px 32px -4px rgba(0,0,0,0.08), 0px 4px 8px -2px rgba(0,0,0,0.08);
+  
+    /* Border radius */
+    --radius-sm: 2px;
+    --radius-md: 4px;
+    --radius-lg: 8px;
+    --radius-full: 9999px;
+  
+    /* Spacing */
+    --spacing-112: 28rem;
+    --spacing-144: 36rem;
+    --spacing-192: 48rem;
+    --spacing-256: 64rem;
+    --spacing-320: 80rem;
+  }
+  
+  /* ======================= */
+  /* DARK THEME VARIABLES    */
+  /* ======================= */
+  [data-theme="dark"] {
+    /* Colors */
+    --color-brand-50: rgb(37, 30, 64);
+    --color-brand-100: rgb(44, 34, 80);
+    --color-brand-200: rgb(50, 39, 95);
+    --color-brand-300: rgb(57, 44, 114);
+    --color-brand-400: rgb(68, 53, 146);
+    --color-brand-500: rgb(88, 66, 195);
+    --color-brand-600: rgb(110, 86, 207);
+    --color-brand-700: rgb(124, 102, 220);
+    --color-brand-800: rgb(158, 140, 252);
+    --color-brand-900: rgb(241, 238, 254);
+    --color-brand-primary: rgb(110, 86, 207);
+  
+    --color-neutral-0: rgb(2, 6, 23);
+    --color-neutral-50: rgb(15, 23, 42);
+    --color-neutral-100: rgb(30, 41, 59);
+    --color-neutral-200: rgb(51, 65, 85);
+    --color-neutral-300: rgb(71, 85, 105);
+    --color-neutral-400: rgb(100, 116, 139);
+    --color-neutral-500: rgb(148, 163, 184);
+    --color-neutral-600: rgb(203, 213, 225);
+    --color-neutral-700: rgb(226, 232, 240);
+    --color-neutral-800: rgb(241, 245, 249);
+    --color-neutral-900: rgb(248, 250, 252);
+    --color-neutral-950: rgb(255, 255, 255);
+  
+    --color-error-50: rgb(60, 24, 26);
+    --color-error-100: rgb(72, 26, 29);
+    --color-error-200: rgb(84, 27, 31);
+    --color-error-300: rgb(103, 30, 34);
+    --color-error-400: rgb(130, 32, 37);
+    --color-error-500: rgb(170, 36, 41);
+    --color-error-600: rgb(229, 72, 77);
+    --color-error-700: rgb(242, 85, 90);
+    --color-error-800: rgb(255, 99, 105);
+    --color-error-900: rgb(254, 236, 238);
+  
+    --color-warning-50: rgb(44, 33, 0);
+    --color-warning-100: rgb(53, 40, 0);
+    --color-warning-200: rgb(62, 48, 0);
+    --color-warning-300: rgb(73, 60, 0);
+    --color-warning-400: rgb(89, 74, 5);
+    --color-warning-500: rgb(112, 94, 0);
+    --color-warning-600: rgb(245, 217, 10);
+    --color-warning-700: rgb(255, 239, 92);
+    --color-warning-800: rgb(240, 192, 0);
+    --color-warning-900: rgb(255, 250, 209);
+  
+    --color-success-50: rgb(19, 40, 25);
+    --color-success-100: rgb(22, 48, 29);
+    --color-success-200: rgb(25, 57, 33);
+    --color-success-300: rgb(29, 68, 39);
+    --color-success-400: rgb(36, 85, 48);
+    --color-success-500: rgb(47, 110, 59);
+    --color-success-600: rgb(70, 167, 88);
+    --color-success-700: rgb(85, 180, 103);
+    --color-success-800: rgb(99, 193, 116);
+    --color-success-900: rgb(229, 251, 235);
+  
+    --color-default-font: rgb(248, 250, 252);
+    --color-subtext-color: rgb(148, 163, 184);
+    --color-default-background: rgb(2, 6, 23);
+  
+    /* Fonts, shadows, radii, spacing remain same as light theme */
+  }
+    
+  /* ======================= */
+  /* UTILITY CLASSES         */
+  /* ======================= */
+  
+  /* Backgrounds */
+  .bg-theme { background-color: var(--color-default-background); }
+  .bg-brand { background-color: var(--color-brand-primary); }
+  
+  /* Text */
+  .text-theme { color: var(--color-default-font); }
+  .text-subtext { color: var(--color-subtext-color); }
+  .text-brand { color: var(--color-brand-primary); }
+  
+  /* Shadows */
+  .shadow-sm-theme { box-shadow: var(--shadow-sm); }
+  .shadow-md-theme { box-shadow: var(--shadow-md); }
+  .shadow-lg-theme { box-shadow: var(--shadow-lg); }
+  
+  /* Rounded */
+  .rounded-sm-theme { border-radius: var(--radius-sm); }
+  .rounded-md-theme { border-radius: var(--radius-md); }
+  .rounded-lg-theme { border-radius: var(--radius-lg); }
+  .rounded-full-theme { border-radius: var(--radius-full); }
+  
+
+/* Apply theme variables to body by default (light theme) */
+body {
+    background-color: var(--color-default-background);
+    color: var(--color-default-font);
+    font-family: var(--font-body);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Dark theme overrides */
+  [data-theme="dark"] body {
+    background-color: var(--color-default-background); /* this now points to dark theme's variable */
+    color: var(--color-default-font);                 /* automatically picks dark theme text color */
+  }
+  
+  
+  /* Primary button with text & optional background */
+.btn-primary {
+  background-color: var(--color-brand-200);
+  color: var(--color-brand-primary);
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.btn-primary:hover {
+  background-color: var(--color-brand-500);
+  color: var(--color-neutral-0);
+}
+
+/* Dark theme overrides */
+[data-theme="dark"] .btn-primary {
+  background-color: var(--color-brand-primary);
+  color: var(--color-default-font);
+}
+
+[data-theme="dark"] .btn-primary:hover {
+  background-color: var(--color-brand-600);
+  color: var(--color-neutral-0);
+}
+
+.text-brand { color: var(--color-brand-primary); }
